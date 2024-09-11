@@ -30,7 +30,7 @@ def submit_form():
     message = request.form.get('message')
 
     # Email setup
-    sender_email = os.getenv("MY_EMAIL")   # Replace with your email address
+    sender_email = os.getenv("EMAIL")   # Replace with your email address
     receiver_email = os.getenv("MY_EMAIL")
     email_password = os.getenv("EMAIL_PASSWORD")  # Replace with your email password
 
