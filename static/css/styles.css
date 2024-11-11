@@ -11341,3 +11341,23 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
+.udemy-link {
+    display: block;
+    text-align: center;
+    font-size: 80px;  /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #003366;  /* Udemy's color or any color you prefer */
+    text-decoration: none;
+    transition: color 0.3s;
+    padding-top: 30px;  /* Top padding */
+    padding-bottom: 30px;  /* Bottom padding */
+}
+
+.udemy-link:hover {
+    color: #0078d4;  /* Change color on hover (Udemy blue or any color you prefer) */
+}
+
+.udemy-text {
+    font-size: 80px;  /* Adjust size for prominence */
+    font-weight: bold;
+}
