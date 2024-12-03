@@ -11361,3 +11361,8 @@ section#contact form#contactForm :-ms-input-placeholder {
     font-size: 80px;  /* Adjust size for prominence */
     font-weight: bold;
 }
+
+/* Change the color of the external link icon inside <a> tags */
+h3 a i.fas.fa-external-link-alt {
+    color: #007bff !important; /* Change to any color you prefer (e.g., blue) */
+}
